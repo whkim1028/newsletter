@@ -6,9 +6,16 @@ const Hero = () => {
   return (
     <Container 
       fluid 
-      className="text-white text-center py-5 position-relative hero-section-bg"
+      className="text-white text-center py-5 position-relative animated-gradient-bg"
+      style={{
+        minHeight: '60vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        overflow: 'hidden', // Ensure content doesn't overflow
+      }}
     >
-      <Row className="py-5 z-1">
+      <Row className="py-5 z-1" style={{ position: 'relative' }}>
         <Col>
           <h1 className="display-4 fw-bold">
             남들보다 한 발 앞선 부동산 인사이트, 지금 당신의 메일함으로

@@ -16,7 +16,7 @@ const Solution = () => {
       </Row>
       <Row>
         {/* Dominance Target */}
-        <Col md={6} className="mb-4">
+        <Col md={6} className="mb-4" data-aos="fade-up">
           <div className="p-4">
             <h3 className="fw-bold"><FaRobot size={48} color="var(--primary-green)" /></h3>
             <h4 className="fw-bold my-3">AI 기반 독점 데이터 분석과 전문가 인사이트</h4>
@@ -27,7 +27,7 @@ const Solution = () => {
         </Col>
 
         {/* Balance Target */}
-        <Col md={6} className="mb-4">
+        <Col md={6} className="mb-4" data-aos="fade-up">
           <div className="p-4">
             <h3 className="fw-bold"><FaDatabase size={48} color="var(--accent-gold)" /></h3>
             <h4 className="fw-bold my-3">AI가 검증한 데이터 기반의 안정적인 리스크 관리</h4>

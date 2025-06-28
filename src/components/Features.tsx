@@ -13,7 +13,7 @@ const Features = () => {
       </Row>
       <Row>
         {/* Dominance Target Feature */}
-        <Col md={6} className="mb-4">
+        <Col md={6} className="mb-4" data-aos="fade-up">
           <Card className="h-100 p-4 border-2 border-primary card-hover-effect">
             <Card.Body>
               <Card.Title as="h3" className="fw-bold"><FaBrain size={48} color="var(--primary-green)" /></Card.Title>
@@ -28,7 +28,7 @@ const Features = () => {
         </Col>
 
         {/* Balance Target Feature */}
-        <Col md={6} className="mb-4">
+        <Col md={6} className="mb-4" data-aos="fade-up">
           <Card className="h-100 p-4 border-2 border-secondary card-hover-effect">
             <Card.Body>
               <Card.Title as="h3" className="fw-bold"><FaCogs size={48} color="var(--accent-gold)" /></Card.Title>

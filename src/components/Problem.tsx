@@ -13,7 +13,7 @@ const Problem = () => {
       </Row>
       <Row>
         {/* Dominance Target */}
-        <Col md={6} className="mb-4">
+        <Col md={6} className="mb-4" data-aos="fade-up">
           <Card className="h-100 p-4 card-hover-effect">
             <Card.Body>
               <Card.Title as="h3" className="fw-bold"><FaChartLine size={48} color="var(--primary-green)" /></Card.Title>
@@ -28,7 +28,7 @@ const Problem = () => {
         </Col>
 
         {/* Balance Target */}
-        <Col md={6} className="mb-4">
+        <Col md={6} className="mb-4" data-aos="fade-up">
           <Card className="h-100 p-4 card-hover-effect">
             <Card.Body>
               <Card.Title as="h3" className="fw-bold"><FaShieldAlt size={48} color="var(--accent-gold)" /></Card.Title>
